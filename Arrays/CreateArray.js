@@ -8,3 +8,7 @@ let numbers = [3,5,6,1,8];
 //English Maths Science History Geography
 let marks = [85,100,98,94,96];
 console.log(marks);
+
+let arr = [];
+arr.push(1);
+console.log(arr);
