@@ -59,7 +59,28 @@ let wordss = ['why','fear','when','Gladden','is','here'];
 let tagline = wordss.join(' ');
 console.log(tagline);
 
+// trim()
+let s1 = "  Gladden Rumao   ";
+console.log(s1.length); //18
+let s2 = s1.trimStart();
+console.log(s2.length); //16
+let s3 = s1.trimEnd();
+console.log(s3.length); //15
+
+let final = s1.trim();
+console.log(final);
+console.log(final.length);
+
+//padStart()
+let num = "5";
+let paddedNum = num.padStart(4,"0");
+console.log(paddedNum);
+
+let num2 = "72";
+let paddedNum2 = num2.padEnd(5,"0");
+console.log(paddedNum2);
 
 
-
-
+let greeting = "hello";
+let padded = greeting.padEnd(10,"_");
+console.log(padded);
