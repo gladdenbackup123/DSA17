@@ -44,3 +44,5 @@ while(curr!=null){
     curr = curr.next;
 }
 console.log("Length of Linked List is",count);
+
+console.log(Math.floor(7/2));
