@@ -9,7 +9,7 @@ while(stack.length>0){
     reverse += popped;
 }
 
-console.log(reverse)
+console.log(reverse)    
 
 
 
